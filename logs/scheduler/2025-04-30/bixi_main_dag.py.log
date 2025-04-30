@@ -222,3 +222,171 @@
 [2025-04-30T21:32:23.011+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:32:23.011+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-04-30T21:32:23.028+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:32:23.028+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
 [2025-04-30T21:32:23.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.207 seconds
+[2025-04-30T21:32:53.211+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:32:53.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:32:53.212+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:32:53.212+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:32:53.370+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:32:53.392+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:32:53.392+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:32:53.406+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:32:53.406+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:32:53.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.208 seconds
+[2025-04-30T21:33:23.508+0000] {processor.py:161} INFO - Started process (PID=236) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:33:23.510+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:33:23.511+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:33:23.510+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:33:23.704+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:33:23.726+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:33:23.726+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:33:23.741+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:33:23.741+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:33:23.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.250 seconds
+[2025-04-30T21:33:53.817+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:33:53.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:33:53.819+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:33:53.819+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:33:53.978+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:33:53.999+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:33:53.999+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:33:54.012+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:33:54.012+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:33:54.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.207 seconds
+[2025-04-30T21:34:24.300+0000] {processor.py:161} INFO - Started process (PID=248) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:34:24.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:34:24.304+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:34:24.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:34:24.480+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:34:24.506+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:34:24.506+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:34:24.521+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:34:24.521+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:34:24.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.242 seconds
+[2025-04-30T21:34:54.814+0000] {processor.py:161} INFO - Started process (PID=254) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:34:54.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:34:54.817+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:34:54.816+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:34:55.074+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:34:55.113+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:34:55.110+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:34:55.137+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:34:55.137+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:34:55.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.345 seconds
+[2025-04-30T21:35:25.412+0000] {processor.py:161} INFO - Started process (PID=260) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:35:25.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:35:25.415+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:35:25.415+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:35:25.615+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:35:25.637+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:35:25.637+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:35:25.651+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:35:25.651+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:35:25.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.254 seconds
+[2025-04-30T21:35:55.838+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:35:55.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:35:55.840+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:35:55.840+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:35:56.007+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:35:56.031+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:35:56.031+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:35:56.046+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:35:56.046+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:35:56.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.223 seconds
+[2025-04-30T21:36:26.176+0000] {processor.py:161} INFO - Started process (PID=272) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:36:26.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:36:26.185+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:36:26.184+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:36:26.544+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:36:26.574+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:36:26.573+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:36:26.621+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:36:26.620+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:36:26.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.472 seconds
+[2025-04-30T21:36:56.818+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:36:56.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:36:56.820+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:36:56.819+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:36:57.001+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:36:57.024+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:36:57.024+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:36:57.044+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:36:57.044+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:36:57.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.242 seconds
+[2025-04-30T21:37:27.318+0000] {processor.py:161} INFO - Started process (PID=284) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:37:27.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:37:27.322+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:37:27.322+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:37:27.646+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:37:27.677+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:37:27.676+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:37:27.695+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:37:27.695+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:37:27.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.402 seconds
+[2025-04-30T21:37:57.938+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:37:57.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:37:57.949+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:37:57.946+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:37:58.262+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:37:58.293+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:37:58.292+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:37:58.316+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:37:58.316+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:37:58.328+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.406 seconds
+[2025-04-30T21:38:28.597+0000] {processor.py:161} INFO - Started process (PID=296) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:38:28.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:38:28.601+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:38:28.600+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:38:29.037+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:38:29.067+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:38:29.066+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:38:29.093+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:38:29.093+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:38:29.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.512 seconds
+[2025-04-30T21:38:59.378+0000] {processor.py:161} INFO - Started process (PID=302) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:38:59.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:38:59.380+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:38:59.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:38:59.746+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:38:59.820+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:38:59.820+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:38:59.844+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:38:59.844+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:38:59.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.490 seconds
+[2025-04-30T21:39:30.081+0000] {processor.py:161} INFO - Started process (PID=308) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:39:30.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:39:30.083+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:39:30.083+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:39:30.295+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:39:30.332+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:39:30.332+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:39:30.370+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:39:30.370+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:39:30.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.316 seconds
+[2025-04-30T21:40:00.659+0000] {processor.py:161} INFO - Started process (PID=314) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:40:00.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:40:00.663+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:40:00.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:40:01.090+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:40:01.130+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:40:01.130+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:40:01.158+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:40:01.156+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:40:01.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.539 seconds
+[2025-04-30T21:40:31.496+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:40:31.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:40:31.501+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:40:31.500+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:40:32.054+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:40:32.106+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:40:32.106+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:40:32.137+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:40:32.137+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:40:32.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.675 seconds
+[2025-04-30T21:41:02.224+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:41:02.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:41:02.232+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:41:02.230+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:41:02.488+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:41:02.526+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:41:02.525+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:41:02.570+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:41:02.570+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:41:02.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.372 seconds
+[2025-04-30T21:41:32.856+0000] {processor.py:161} INFO - Started process (PID=332) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:41:32.858+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:41:32.859+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:41:32.858+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:41:33.063+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:41:33.097+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:41:33.097+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:41:33.114+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:41:33.114+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:41:33.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.273 seconds
+[2025-04-30T21:42:03.342+0000] {processor.py:161} INFO - Started process (PID=338) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:42:03.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:42:03.344+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:42:03.344+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:42:03.564+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:42:03.613+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:42:03.613+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:42:03.640+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:42:03.640+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:42:03.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.316 seconds
+[2025-04-30T21:42:33.820+0000] {processor.py:161} INFO - Started process (PID=344) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:42:33.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:42:33.822+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:42:33.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:42:33.977+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:42:33.998+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:42:33.998+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:42:34.011+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:42:34.011+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:42:34.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.204 seconds
+[2025-04-30T21:43:04.303+0000] {processor.py:161} INFO - Started process (PID=350) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:43:04.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:43:04.306+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:43:04.306+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:43:04.587+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:43:04.620+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:43:04.620+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:43:04.642+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:43:04.642+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:43:04.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.362 seconds
+[2025-04-30T21:43:34.863+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:43:34.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:43:34.865+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:43:34.865+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:43:35.044+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:43:35.069+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:43:35.069+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:43:35.089+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:43:35.089+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:43:35.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.240 seconds
+[2025-04-30T21:44:05.322+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:44:05.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:44:05.324+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:44:05.323+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:44:05.557+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:44:05.585+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:44:05.584+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:44:05.603+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:44:05.603+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:44:05.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.302 seconds
+[2025-04-30T21:44:35.774+0000] {processor.py:161} INFO - Started process (PID=368) to work on /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:44:35.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bixi_main_dag.py for tasks to queue
+[2025-04-30T21:44:35.776+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:44:35.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:44:35.943+0000] {processor.py:840} INFO - DAG(s) 'bixi_main_dag' retrieved from /opt/airflow/dags/bixi_main_dag.py
+[2025-04-30T21:44:35.975+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:44:35.975+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-30T21:44:35.999+0000] {logging_mixin.py:188} INFO - [2025-04-30T21:44:35.999+0000] {dag.py:3823} INFO - Setting next_dagrun for bixi_main_dag to 2025-04-30 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-30T21:44:36.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bixi_main_dag.py took 0.248 seconds
