@@ -22,6 +22,7 @@ services:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./data:/opt/airflow/data
+      - ./scripts:/opt/airflow/scripts
     ports:
       - "8089:8080"
     command: webserver
@@ -40,6 +41,8 @@ services:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./data:/opt/airflow/data
+      - ./scripts:/opt/airflow/scripts
+
     command: scheduler
 
   airflow-init:
@@ -56,6 +59,8 @@ services:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./data:/opt/airflow/data
+      - ./scripts:/opt/airflow/scripts
+
     command: bash -c "airflow db init && airflow users create \
       --username airflow \
       --password airflow \

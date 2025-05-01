@@ -1,0 +1,50 @@
+[2025-04-30T23:50:21.202+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bixi_main_dag.analyse_donnees manual__2025-04-30T23:50:18.364101+00:00 [queued]>
+[2025-04-30T23:50:21.208+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bixi_main_dag.analyse_donnees manual__2025-04-30T23:50:18.364101+00:00 [queued]>
+[2025-04-30T23:50:21.208+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-04-30T23:50:21.216+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): analyse_donnees> on 2025-04-30 23:50:18.364101+00:00
+[2025-04-30T23:50:21.220+0000] {standard_task_runner.py:60} INFO - Started process 184 to run task
+[2025-04-30T23:50:21.222+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'bixi_main_dag', 'analyse_donnees', 'manual__2025-04-30T23:50:18.364101+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/bixi_main_dag.py', '--cfg-path', '/tmp/tmp7ap90g2s']
+[2025-04-30T23:50:21.223+0000] {standard_task_runner.py:88} INFO - Job 28: Subtask analyse_donnees
+[2025-04-30T23:50:21.232+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-30T23:50:21.253+0000] {task_command.py:423} INFO - Running <TaskInstance: bixi_main_dag.analyse_donnees manual__2025-04-30T23:50:18.364101+00:00 [running]> on host 81c76986d880
+[2025-04-30T23:50:21.400+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='bixi_main_dag' AIRFLOW_CTX_TASK_ID='analyse_donnees' AIRFLOW_CTX_EXECUTION_DATE='2025-04-30T23:50:18.364101+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-30T23:50:18.364101+00:00'
+[2025-04-30T23:50:21.411+0000] {logging_mixin.py:188} INFO - Shape: (6434, 13)
+[2025-04-30T23:50:21.419+0000] {logging_mixin.py:188} INFO - Description:
+[2025-04-30T23:50:21.425+0000] {logging_mixin.py:188} INFO -            Latitude    Longitude  ...     lat_zone     lon_zone
+count  6434.000000  6434.000000  ...  6434.000000  6434.000000
+mean     46.059625   -72.888769  ...     3.393379     4.253342
+std       0.980287     1.897010  ...     0.949638     0.882235
+min      42.304950   -82.548400  ...     0.000000     0.000000
+25%      45.491835   -73.657260  ...     3.000000     4.000000
+50%      45.585115   -73.548338  ...     3.000000     4.000000
+75%      46.261930   -72.086202  ...     3.000000     5.000000
+max      52.336028   -61.796617  ...     9.000000     9.000000
+
+[8 rows x 6 columns]
+[2025-04-30T23:50:21.426+0000] {logging_mixin.py:188} INFO - Value counts:
+[2025-04-30T23:50:21.427+0000] {logging_mixin.py:188} INFO -  is_fast_charge
+False    5345
+True     1089
+Name: count, dtype: int64
+[2025-04-30T23:50:21.427+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/bixi_main_dag.py", line 34, in run_eda
+    namespace["analyse_donnees"]()
+  File "<string>", line 8, in analyse_donnees
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 8252, in groupby
+    return DataFrameGroupBy(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/groupby/groupby.py", line 931, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/groupby/grouper.py", line 985, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'Niveau de recharge'
+[2025-04-30T23:50:21.440+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=bixi_main_dag, task_id=analyse_donnees, execution_date=20250430T235018, start_date=20250430T235021, end_date=20250430T235021
+[2025-04-30T23:50:21.454+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 28 for task analyse_donnees ('Niveau de recharge'; 184)
+[2025-04-30T23:50:21.484+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-04-30T23:50:21.501+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

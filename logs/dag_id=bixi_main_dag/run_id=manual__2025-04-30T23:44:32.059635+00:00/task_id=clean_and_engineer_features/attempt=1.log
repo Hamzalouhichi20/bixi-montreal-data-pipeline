@@ -1,0 +1,22 @@
+[2025-04-30T23:44:33.092+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bixi_main_dag.clean_and_engineer_features manual__2025-04-30T23:44:32.059635+00:00 [queued]>
+[2025-04-30T23:44:33.096+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bixi_main_dag.clean_and_engineer_features manual__2025-04-30T23:44:32.059635+00:00 [queued]>
+[2025-04-30T23:44:33.097+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-04-30T23:44:33.102+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): clean_and_engineer_features> on 2025-04-30 23:44:32.059635+00:00
+[2025-04-30T23:44:33.109+0000] {standard_task_runner.py:60} INFO - Started process 187 to run task
+[2025-04-30T23:44:33.113+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'bixi_main_dag', 'clean_and_engineer_features', 'manual__2025-04-30T23:44:32.059635+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/bixi_main_dag.py', '--cfg-path', '/tmp/tmph2qufszn']
+[2025-04-30T23:44:33.116+0000] {standard_task_runner.py:88} INFO - Job 21: Subtask clean_and_engineer_features
+[2025-04-30T23:44:33.128+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-30T23:44:33.154+0000] {task_command.py:423} INFO - Running <TaskInstance: bixi_main_dag.clean_and_engineer_features manual__2025-04-30T23:44:32.059635+00:00 [running]> on host d974b11537d0
+[2025-04-30T23:44:33.211+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='bixi_main_dag' AIRFLOW_CTX_TASK_ID='clean_and_engineer_features' AIRFLOW_CTX_EXECUTION_DATE='2025-04-30T23:44:32.059635+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-30T23:44:32.059635+00:00'
+[2025-04-30T23:44:33.486+0000] {logging_mixin.py:188} INFO -   Nom de la borne de recharge  ... lon_zone
+0                   CEA-12392  ...        5
+1                   CEA-11452  ...        4
+2                   CEA-11314  ...        4
+3                   CEA-11908  ...        4
+4                   CEA-11904  ...        4
+
+[5 rows x 13 columns]
+[2025-04-30T23:44:33.487+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-04-30T23:44:33.493+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=bixi_main_dag, task_id=clean_and_engineer_features, execution_date=20250430T234432, start_date=20250430T234433, end_date=20250430T234433
+[2025-04-30T23:44:33.540+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-04-30T23:44:33.556+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
