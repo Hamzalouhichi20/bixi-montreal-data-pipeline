@@ -1,0 +1,2 @@
+Ce projet met en place un pipeline de données avec Apache Airflow pour nettoyer, analyser et modéliser les données des bornes de recharge Bixi à Montréal. Le pipeline comprend plusieurs étapes automatisées, dont le nettoyage des données, l’analyse exploratoire, l'entraînement d’un modèle de machine learning et la prédiction du mode de tarification.
+![Screenshot 2025-05-03 204730](https://github.com/user-attachments/assets/8cbab164-6202-45ad-923c-46020959bbc5)
